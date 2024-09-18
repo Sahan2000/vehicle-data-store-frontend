@@ -165,7 +165,8 @@ function App() {
       });
 
       setIsModalOpen(false);
-      fetchVehicles(); // Refresh the list after update
+      // Refresh the list after update
+      fetchVehicles(); 
     } catch (error) {
       console.error('Error updating vehicle:', error);
     }
